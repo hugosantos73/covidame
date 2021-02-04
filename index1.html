@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVIDame - Página principal</title>
+	<link rel="stylesheet" href="covidame.css">
+</head>
+        
+        
+
+
+
+
+<body>
+<div class="grid-container">
+
+    <!-- menu superior -->
+
+    <div class="logo">
+            <img src="Logo covidame verde.png" id="logo">
+        </div>
+
+    <div class="topnav-right">
+                <a  href="index1.html" class="active" href="#index1" style="margin-left: 4%; text-decoration-line: underline;"> Página principal</a>
+                <a href="sobrenos.html"  style="margin-left: 4%;">Sobre nós</a>
+                <a href="missao.html"   style="margin-left: 4%;">Missão</a>
+                <a href="contactos.html"   style="margin-left: 4%;">Contactos</a>
+                <a href="locais.html"   style="margin-left: 4%;">Locais</a>
+    </div>
+
+        
+
+</div>
+       
+<div class="grid-container-6">
+    
+    
+    <div class="esquerda">
+            <h1 id="bemvindo" style="color: #32ba9d;">BEM-VINDO</h1>
+            <p id="desc1">Ao site que te vai ajudar a conviver com outros alunos, de forma segura, respeitando todas as normas de segurança pública</p>
+        </div>
+            <div class="slideshow">
+
+            <!-- Slideshow container -->
+
+                            <div class="slideshow-container">
+
+                            <!-- Full-width slides/quotes -->
+                            <div class="mySlides">
+                            <q >Usa a máscara</q>
+                            <p class="author">- Covidame</p>
+                            </div>
+                        
+                            <div class="mySlides">
+                            <q>Desinfeta as mãos regularmente</q>
+                            <p class="author">- Covidame</p>
+                            </div>
+                        
+                            <div class="mySlides">
+                            <q>Mantem os espaços comuns limpos</q>
+                            <p class="author">- Covidame</p>
+                            </div>
+                        
+                            <!-- Next/prev buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+
+                        <!-- Dots/bullets/indicators -->
+                        <div class="dot-container">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+
+                            <script>
+                                var slideIndex = 1;
+                                showSlides(slideIndex);
+
+                                function plusSlides(n) {
+                                showSlides(slideIndex += n);
+                                }
+
+                                function currentSlide(n) {
+                                showSlides(slideIndex = n);
+                                }
+
+                                function showSlides(n) {
+                                    var i;
+                                    var slides = document.getElementsByClassName("mySlides");
+                                    var dots = document.getElementsByClassName("dot");
+                                    if (n > slides.length) {slideIndex = 1}
+                                        if (n < 1) {slideIndex = slides.length}
+                                        for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none";
+                                        }
+                                        for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active", "");
+                                        }
+                                    slides[slideIndex-1].style.display = "block";
+                                    dots[slideIndex-1].className += " active";
+                                    }
+                            </script>
+            </div>
+    </div>
+</div>
+
+<!-- Footer -->
+    <footer style="margin-top: -5%;">
+        <div class="footer">
+
+                <ul class="footer-right">
+                    <li>
+                        <h2>Página Inicial</h2>
+                    </li>
+                </ul>
+                <ul class="footer-right">
+                    <li>
+                        <h2>Sobre Nós</h2>
+                    </li>
+                </ul>
+                <ul class="footer-right">
+                    <li>
+                        <h2>Missão</h2>
+                        <ul>
+                            <li><a href="Missao.html">Informação da DGES</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer-right">
+                    <li>
+                        <h2>Contactos</h2>
+                        <ul>
+                            <li><a href="contactos.html">Úteis</a></li>
+                            <li><a href="contactos.html">Formulário de Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer-right">
+                    <li>
+                        <h2>Locais</h2>
+                    </li>
+                </ul>
+        
+                <div class="footer-bottom">
+                    <p>Covidame 2020&copy;</p>
+                </div>    
+        </div>
+        
+    </footer>
+</body>
+</html>

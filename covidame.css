@@ -1,0 +1,746 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0 ;
+    text-decoration-line: none;
+  }
+
+
+
+.grid-container {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 65px 1fr 1fr;
+  width: 100%;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+}
+
+.topnav-right {
+    background-color:white;
+    overflow: hidden; 
+    text-decoration: aquamarine;
+    float:right;
+    padding: 2.4% 0.5%;
+    font-size: 87%;
+}
+
+
+.topnav-right a {
+    color: #32ba9d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.topnav-right a:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.topnav-right a.active {
+  background-color: transparent;
+    color: black;
+}
+
+#logo{width: 100%;
+    height: 75%;
+}
+
+.logo{max-width: 20%;
+  margin-left: 15%;
+}
+
+
+.esquerda{max-width: 55%;
+margin-left: 25%;
+margin-top:12%;
+}
+
+
+#bemvindo{
+    max-width: 55%;
+    font-size: 350%;
+    margin-top: 4%;
+}
+
+#desc1{
+    max-width: 55%;
+    margin-top: 3%;
+}
+
+
+/* Slideshow */
+.slideshow{
+    margin-top: 0%;
+    margin-right: 2%;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  border-radius: 20px;
+  position: relative;
+  background: #32ba9d;
+  width: 100%;
+}
+
+/* Slides */
+
+.mySlides {
+  display: none;
+  padding: 200px 80px 0px 80px;
+  text-align: center;
+  height:260px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #32ba9d;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #32ba9d;
+  margin-top: -3.5%;
+  border-radius: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 25px 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color:white;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;
+  font-size: 140%;
+margin-top: 3%;
+color: white;}
+
+/* Add a blue color to the author */
+.author {color: rgb(143, 75, 67);
+font-size: 110%;}
+
+
+
+/* Página Sobre Nós*/
+
+.grid-container-2 {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 65px 1fr 1fr;
+  width: 100%;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+}
+
+.grid-container-3 {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    ".";
+}
+
+.txt_video{
+  text-align: center;
+  font-size: 120%;
+}
+
+.iframe_video{
+  width: 100%;
+  margin-top: -10%;
+}
+
+.video{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+/* Página Missão */
+
+.grid-container-4 {
+  display: grid;
+  margin-top: 5%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1.2fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    "."
+    ".";
+}
+
+.txt_missao{
+  text-align: center;
+  font-size: 140%;
+}
+
+.txt_missao_2{
+  margin-top: 0%;
+  margin-left: 15%;
+}
+
+.txt_missao_2_css{
+  margin-top: 1%;
+}
+
+.txt_missao_link{
+  text-decoration: none;
+  text-decoration-line: none;
+  color: black;
+}
+
+.txt_missao_link a{
+  color: black;
+}
+
+  /* Aba Sintomas*/
+
+.sintomasfrequentes_espacamento{
+  width: 100%;
+  margin-top: 2%;
+  font-size: 140%;
+}
+
+.sintomasfrequentes{
+  text-align: center;
+}
+
+.grid-container-5 {
+  display: grid;
+  margin-top: 2%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
+}
+
+.sintomasfrequentes_txt{
+  margin-top: 5%;
+  padding-left:28%;
+  text-align: left; 
+}
+
+.sintomasfrequentes_img_espacamento{
+  width: 100%;
+}
+
+.sintomasfrequentes_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
+  height: 100%;
+}
+
+/* Aba Transmissão*/
+  
+.transmissao_espacamento{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 140%;
+
+}
+
+.transmissao{
+  text-align: center;
+}
+
+.grid-container-5 {
+  display: grid;
+  margin-top: 2%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
+}
+
+.transmissao_txt{
+  margin-top: 10%;
+  text-align: left; 
+  width: 70%;
+}
+
+.transmissao_img_espacamento{
+  width: 100%;
+}
+
+.transmissao_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
+  height: 50%;
+}
+
+.transmissao2_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
+  height: 40%;
+}
+
+/* Aba Medidas Preventivas */
+
+.medidaspreventivas_espacamento{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 140%;
+
+}
+
+.medidaspreventivas{
+  text-align: center;
+}
+
+.medidas_txt_espacamento{
+  margin-top: 3%;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+/* Aba Medidas Distanciamento */
+
+.medidasdistanciamento_espacamento{
+  width: 100%;
+  margin-top: 8%;
+  font-size: 140%;
+
+}
+
+.medidasdistanciamento{
+  text-align: center;
+}
+
+.medidasdistanciamento_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
+  height: 95%;
+}
+
+.medidasdistanciamento_txt{
+  margin-top: 2%;
+  margin-left: 28%
+}
+
+
+/* Aba Equipamentos de proteção */
+
+.equipamentosprotecao_espacamento{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 140%;
+
+}
+
+.equipamentosprotecao{
+  text-align: center;
+}
+
+.grid-container-5 {
+  display: grid;
+  margin-top: 2%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". .";
+}
+
+.equipamentosprotecao_txt{
+  margin-top: 8%;
+  text-align: left; 
+  padding-left: 6%;
+  width: 70%;
+}
+
+.equipamentosprotecao_img_espacamento{
+  width: 100%;
+}
+
+.equipamentosprotecao_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 190%;
+  margin-top: -5%;
+}
+
+
+/* Aba Medidas Higiene */
+
+.grid-container-6 {
+  display: grid;
+  margin-top: 4%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". .";
+}
+
+.medidashigiene_espacamento{
+  width: 100%;
+  margin-top: 8%;
+  font-size: 140%;
+
+}
+
+.medidashigiene{
+  text-align: center;
+}
+
+.medidashigiene_img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5%;
+  height: 100%;
+}
+
+.medidashigiene_txt{
+  margin-top: 8%;
+  padding-left: 6%;
+}
+
+.medidashiegene2_txt{
+  text-align: left;
+  margin-left: 28%;
+  margin-top: 15%;
+}
+
+
+/* Contactos */
+
+.grid-container-7 {
+  display: grid;
+  margin-top: 5%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.7fr 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    ".";
+}
+
+
+.contactosuteis_txt{
+  text-align: center;
+  font-size: 200%;
+  color: #32ba9d;
+}
+
+.contactosuteis_txt2{
+  text-align: center;
+  padding-top: 1%;
+}
+
+.contactosuteis_formulario{
+  margin-left: 39.5%;
+  margin-top: 4%;
+}
+
+.form_sobrenome{
+  margin-top: 2%;
+}
+
+.form_email{
+  margin-top: 2%;
+}
+
+.form_mensagem{
+  margin-top: 3%;
+}
+
+.button_espacamento{
+  margin-left: 13.5%;
+  margin-top: 3%;
+}
+
+
+.myButton {
+	background-color: #32ba9d;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:10px 19px;
+  text-decoration:none;
+  font-weight: 200;
+	text-shadow:0px 0px 5px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Página Locais */
+
+.loja_msg {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.grid-container-loja {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 0.3fr;;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    ".";
+}
+
+.bodyimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin-top: -5%;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  transition: 0.5s;
+}
+
+.box:hover {
+  height: 400px;
+}
+
+.box .imgBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.box .imgBx img {
+  max-width: 100%;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+.box:hover .imgBx img {
+  opacity: 1;
+}
+
+.box:before {
+  content: "";
+  position: relative;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #ffffff;
+  z-index: -1;
+}
+
+.box:after {
+  content: '';
+  position: relative;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: transparent;
+  z-index: -2;
+  filter: blur(40px);
+}
+
+.box .content {
+  position: relative;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 10px;
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.box:hover .content {
+  opacity: 1;
+}
+
+.box .content h2 {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer*/
+
+footer {
+    width: 100%;
+    position: relative;
+}
+
+.footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 50px;
+    color: #ffffff;
+    background-color: #32ba9d;;
+}
+
+.footer > * {
+    flex: 1 100%;
+}
+
+.footer h2 {
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer a:visited {
+    color: #ebebeb;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.footer-right {
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right > * {
+    flex: 1 50%;
+    margin-left: 50px;
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
